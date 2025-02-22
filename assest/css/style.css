@@ -28,6 +28,7 @@ body{
 
 }
 
+
 .footer-bg{
     background: rgba(19, 19, 19, 1);
 
@@ -187,6 +188,8 @@ hover-btn {
       max-width: 720px !important;
       margin: 0 auto !important;
     }
+
+    
     h1{
         font-size: 45px !important;
     }
@@ -456,7 +459,14 @@ input.form-control.bg-transparent.border-0 {
    
 }
 
+@media (max-width: 600px) {
 
+.mail{
+    display: block !important;
+        
+}
+
+}
 .my-work-heading{
     margin: 91px 0px;
     /* border-bottom: 2px solid; */
