@@ -334,6 +334,8 @@ input.form-control.bg-transparent.border-0 {
     /* opacity: ; */
 }
 
+
+
 @media (max-width:300px) {
     .logo-box{
         width: 100px !important;
@@ -497,5 +499,14 @@ input.form-control.bg-transparent.border-0 {
     /* border-bottom: 2px solid; */
 }
 
+/* footer design customized */
+
+.footer-a{
+    transition: .3s ease-out;
+}
+.footer-a:hover{
+    border-radius: 10px;
+    transition: .3s ease-out;
+}
 
 /* model in contact btn */
