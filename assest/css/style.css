@@ -291,7 +291,10 @@ input.form-control.bg-transparent.border-0 {
     }
 
   
-    
+    .logo-div{
+        max-width: 300px !important;
+        height: 500px;
+    }
   
   }
   
@@ -307,7 +310,7 @@ input.form-control.bg-transparent.border-0 {
    }
    .fs-80{
     padding: 25px !important;
-    font-size: 80px !important;
+    /* font-size: 80px !important; */
    }
    .fs-21{
     font-size: 28px !important;
@@ -315,7 +318,21 @@ input.form-control.bg-transparent.border-0 {
    }
    
 }
+.contact-a {
+    margin-left: 18px;
+    font-size: 15px;
+    color: rgba(148, 148, 148, 1);
 
+}
+.contact-a:hover {
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.logo-box{
+    width:170px ;
+    height: 50px !important;
+    /* opacity: ; */
+}
 
 @media (min-width: 1570px) {
     .container-box {
