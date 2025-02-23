@@ -486,12 +486,25 @@ input.form-control.bg-transparent.border-0 {
    
 }
 
+
+.code-language{
+    color: rgba(148, 148, 148, 1);
+    font-weight: 600;
+}
+
+.code-language:hover{
+    color: rgb(225, 211, 117);
+
+}
+
 @media (max-width: 600px) {
 
 .mail{
     display: block !important;
         
 }
+
+
 
 }
 .my-work-heading{
